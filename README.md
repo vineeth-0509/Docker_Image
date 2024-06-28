@@ -22,7 +22,7 @@ node_modules
 dist
 and all the things that we do not want to copy over to the docker file, add into the .dockerignore file
 
--> command is docker build -t backend.
+-> command is docker build -t backend .
 
 //-t is the tag name that we want to give to it, we can name it according to the type of application we are creating.
 
