@@ -29,3 +29,9 @@ and all the things that we dont want to copy over to the docker file, add in to 
 
 // run the docker
  docker run -p 3000:3000 backend(whatever the name that you have given)
+docker push vineeth935/vineeth1_dockerimage:vineeth 
+
+Networks and volumes:
+Networks and volumes are concepts that become importtant when we have multiple container running in which we have
+->Need to persist data across docker restarts
+->Need to allow containers to talk to each other
