@@ -32,6 +32,6 @@ and all the things that we do not want to copy over to the docker file, add into
 docker push vineeth935/vineeth1_dockerimage:vineeth 
 
 Networks and volumes:
-Networks and volumes are concepts that become importtant when we have multiple container running in which we have
+Networks and volumes are concepts that become important when we have multiple container running in which we have
 ->Need to persist data across docker restarts
 ->Need to allow containers to talk to each other
